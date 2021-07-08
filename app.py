@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 API_KEY = os.environ.get("API_KEY")
-# print("API_KEY=", API_KEY)
+print("API_KEY=", API_KEY)
 
 FORECAST_API = "https://api.openweathermap.org/data/2.5/forecast"
 
